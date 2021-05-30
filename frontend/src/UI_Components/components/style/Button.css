@@ -1,0 +1,12 @@
+.button-simple {
+  background: #9faeb8;
+  text-align: center;
+  color: #fff;
+  padding: 3px 10px 3px 10px;
+  border-radius: 5px;
+}
+
+.button-simple:hover {
+  background: #5f788a;
+  box-shadow: 1px 1px 3px #5f788a;
+}
