@@ -68,5 +68,4 @@ npm install
 
 ## To run app
 
-npm run webpack
-npm run start
+npm run webpack && npm run start
