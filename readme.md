@@ -7,6 +7,7 @@ pip3 install -r requirements.txt
 ## To Initialize a database
 
 from api import db, create_app
+
 db.create_all(app=create_app())
 
 ## To run backend server
@@ -16,9 +17,13 @@ python3 run.py
 ## To check users table
 
 from api import create_app, db
+
 app = create_app()
+
 app.app_context().push()
+
 from api.models import Users
+
 Users.query.all()
 
 ## Curl request to take user entry from user
